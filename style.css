@@ -161,7 +161,7 @@ button:hover {
   }
 
   .divGradi {
-    max-width: 300px;
+    width: 300px;
   }
 }
 
@@ -193,7 +193,7 @@ button:hover {
   }
 
   .divGradi {
-    max-width: 500px;
+    width: 500px;
   }
 
 }
