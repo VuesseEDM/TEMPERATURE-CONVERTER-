@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Conversion|Celsius to Fahrenheit - Fahrenheit to Celsius</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.cdnfonts.com/css/sambo-briliant" rel="stylesheet">
+</head>
+
+<body>
+  <form>
+    <h1>TEMPERATURE CONVERSION</h1>
+    <input type="number" id="textBox" value="0">
+
+    <div class="divGradi">
+
+      <div class="div1">
+        <input type="radio" id="toFarenait" name="unit">
+        <label for="toFarenait" id="toFarenaitLabel">🌡Fahrenheit</label>
+      </div>
+
+      <div class="div2">
+        <input type="radio" id="toCelsius" name="unit">
+        <label for="toCelsius" id="toCelsiusLabel">🌡Celsius</label>
+      </div>
+
+    </div>
+
+    <button type="button" id="submitButton" onclick="convert()">SUBMIT</button>
+
+    <p id="result">SELECT A UNIT</p>
+  </form>
+  <video autoplay muted loop>
+    <source src="video/Cava.mp4" type="video/mp4">
+    Il tuo browser non supporta il tag video.
+  </video>
+  <!--AUDIO-->
+  <audio id="musica" src="musica/Chopin.mp3" autoplay loop></audio>
+  <script src="script.js"></script>
+</body>
+
+</html>
