@@ -9,7 +9,7 @@
 
 body {
   background-color: rgb(226, 204, 204);
-  padding-top: 30px;
+  padding-top: 100px;
 }
 
 h1 {
@@ -109,13 +109,12 @@ button:hover {
 }
 
 .divGradi {
-  margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 420px;
+  padding: 5px 40px;
 }
 
 #toFarenaitLabel:hover {
@@ -136,24 +135,24 @@ button:hover {
   form {
     padding: 15px;
     margin: 20px;
-    padding: 60px;
+    padding: 35px;
   }
 
   #textBox {
     font-size: 2em;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   label {
     margin: 10px;
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 
   button {
     font-size: 2em;
     padding: 15px 35px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
 
   #result {
@@ -161,7 +160,8 @@ button:hover {
   }
 
   .divGradi {
-    width: 300px;
+    padding: 5px 20px;
+    max-width: 250px;
   }
 }
 
@@ -193,7 +193,8 @@ button:hover {
   }
 
   .divGradi {
-    width: 500px;
+    max-width: 500px;
+    padding: 15px 30px;
   }
 
 }
